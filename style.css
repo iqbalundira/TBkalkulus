@@ -1,0 +1,98 @@
+/* General Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-container{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(5, 5, 5);
+  box-shadow: 0 2px 4px rgba(244, 245, 241, 0.97);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
+}
+
+form {
+  width: 100%;
+  padding: 20px;
+  background-color: #696a6a;
+  box-shadow: 0 2px 4px rgba(239, 238, 238, 0.973);
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(248, 246, 247);
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f9f9;
+  color: rgb(66, 206, 237);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2ad1dd;
+}
+
+.hasil {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(223, 248, 2, 0.1);
+  color: rgb(252, 3, 3);
+}
+
+.hasil p {
+  margin-bottom: 0;
+}
+
+.hasil span {
+  font-weight: bold;
+}
+
+  .container {
+    background-color: white
+    ;
+  }
+  input[type="text"],
+  input[type="number"] {
+    border-color: #0d83f8;
+  }
+  button[type="submit"] {
+    background-color: #fc0808;
+    color: white;
+  }
+  .hasil {    
+    background-color: #f60707;
+    }
